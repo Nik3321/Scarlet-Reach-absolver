@@ -1,5 +1,5 @@
 /obj/item/rogueweapon/flail
-	force = 25
+	force = 35
 	possible_item_intents = list(/datum/intent/flail/strike, /datum/intent/flail/strike/smash)
 	name = "flail"
 	desc = "This is a swift, iron flail. Strikes hard and far."
@@ -52,7 +52,7 @@
 /datum/intent/flail/strike/smash
 	name = "smash"
 	chargetime = 5
-	chargedrain = 2
+	chargedrain = 1
 	no_early_release = TRUE
 	penfactor = BLUNT_DEFAULT_PENFACTOR
 	recovery = 10
